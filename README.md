@@ -59,7 +59,11 @@ Model accuracy is evaluated inside the notebook using robust verification criter
 ```text
 TRAFFIC-FLOW-PREDICTION/
 │
+├── data/
+│   └── TrafficDataset.csv                # Source data matrix (omitted from repository tracking via .gitignore)
+│
 ├── project-files/
 │   └── Traffic_flow_prediction.ipynb     # Master notebook (EDA, Scaling, Encoding, Model)
 │
+├── .gitignore                            # Tells Git to ignore the data/ folder
 └── README.md                             # Comprehensive project documentation
